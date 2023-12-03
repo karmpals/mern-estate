@@ -66,6 +66,8 @@ export default function Home() {
                 style={{
                   background: `url(${listing.imageUrls[0]}) center no-repeat`,
                   backgroundSize: "cover",
+                  margin:'3px',
+                  borderRadius: '4px'
                 }}
                 className="h-[500px]"
                 key={listing._id}
